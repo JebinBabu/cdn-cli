@@ -27,7 +27,7 @@ else{
 axios.get(url)
   .then(function (response) {
 
-    console.log('\nCDN Finder\n----------------\n')
+    console.log('\nCDN CLI\n----------------\n')
     
     if(response.data.results.length > 0){
 
